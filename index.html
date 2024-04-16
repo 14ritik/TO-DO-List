@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-HyNMcF6JpXZSUyvuPb5N1F+oWr+Psjz4UmnvQeICMUKTnjU9kHxB0JHjMZU5TqQz6Zr/rmJNGG7U7cAFJlhnAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="container1">
+      <h1>Built a <span>TO-DO List</span> using JavaScript</hi>
+     </div>
+     <div class="outer-div">
+      <div class="container">
+          <div class="nav">
+            <h1>To-Do List</h1>
+            <img src="Image.jpg">
+          </div>
+          <form id="todo-form">
+            <div class="input_div">
+              <input type="text" id="todo-input" placeholder="Enter a task name">
+               <select id="todo-input_1">
+                <option value="Assignee">Assignee</option>
+                <option value="Arif">Arif</option>
+                <option value="Alok">Alok</option>
+                <option value="Aryan">Aryan</option>
+                <option value="Rakesh">Rakesh</option>
+                <option value="Ritik">Ritik</option>
+                <option value="Saurayadeep">Saurayadeep</option>
+               </select>
+              
+              <input type="date" id="todo-input_2" placeholder="Due date">
+              <input type="text" id="todo-input_3" placeholder="Description">
+              <button type="submit">Add Task</button>
+            </div>  
+          </form>
+            <div id="todo-list" class="todo-list">
+              <!-- Your tasks here -->
+            </div>
+            <p>Today's Total Tasks: <span id="total-tasks">0</span></p>
+      </div>  
+    </div>  
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
